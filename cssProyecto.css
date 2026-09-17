@@ -5,12 +5,12 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    color: #db5186;
-    background-color: w#fafafa;
+    color: #603410;
+    background-color: #fafafa;
 }
 
 header{
-    border-bottom: 1px solid #0e1f76;
+    border-bottom: 1px solid #473304c1;
     background-color: white;
 }
 .entrada{
@@ -22,7 +22,7 @@ header{
     align-items: center;
 }
 .logo{
-    color: #72b2d4;
+    color: #583a08bb;
     font-size: 22px;
     font-weight: bold;
     text-decoration: none;
@@ -38,7 +38,7 @@ header{
     font-size: 14px;
 }
 .menu a:hover{
-    color: #7c0442;
+    color: #714208;
 }
 .hero{
     max-width: 850px;
@@ -46,3 +46,42 @@ header{
     padding: 120px 30px;
     text-align: center;
 }
+.tag{
+    display: inline-block;
+    padding: 4px 10px;
+    border: 1px solid #5c450042;
+    border-radius: 10px;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+.hero h1 span{
+    color: #7e49138b;
+}
+.hero-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 30px;
+}
+.button{
+    padding: 8px 14px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-size:​ 12px;
+    transition:​ 0.2s;
+}
+.primary{
+    background-color: #56320a44;
+    color: rgb(254, 253, 253);
+}
+.resources{
+    max-width: 1100px;
+    margin: auto;
+    padding: 90px 30px;
+}
+
+
+
+
+
+
